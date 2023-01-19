@@ -113,6 +113,11 @@ body {
   margin-right: 40px;
   width: 80%;
 }
+.enjoy-features .section-title {
+  border-left: 6px solid #ff900e;
+  height: 110px;
+  padding-left: 10px;
+}
 .enjoy-feature {
   padding-top: 30px;
   padding-right: 36px;
@@ -136,7 +141,48 @@ body {
   font-weight: 700;
   padding-bottom: 0;
 }
-.flex-item .btn-primary .small-text{
-    font-size: 25px;
-    margin-top: 0;
+.flex-item .btn-primary .small-text {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+/* fourth section */
+.facts{
+  margin: 80px 240px;
+}
+
+.fact-container{
+  display: flex;
+  gap: 100px;
+  margin-top: 100px;
+}
+.fact {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 220px;
+  height: 200px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.5s ease-in;
+}
+.fact:hover{
+  transform: scale(1.2);
+  background-color: #FCE700;
+}
+.fact-img-title {
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+}
+.fact .section-description {
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 0;
+  padding-left: 25%;
+  
+}
+.facts .section-description{
+  width: 50%;
 }
